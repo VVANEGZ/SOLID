@@ -1,6 +1,6 @@
 class Jugador
     attr_accessor :nombre, :puntos, :vidas
-    def initialized(nombre)
+    def initialize(nombre)
         @nombre = nombre
         @puntos = 0
         @vidas = 3
