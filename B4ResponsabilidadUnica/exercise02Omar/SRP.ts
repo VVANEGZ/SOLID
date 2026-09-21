@@ -57,3 +57,5 @@ class Cliente{
 const angel = new Cliente('Angel Rojas', 'angel@gmail.com', 35, 'intermedio');
 
 angel.registrarSuscripcion()
+
+export{}
