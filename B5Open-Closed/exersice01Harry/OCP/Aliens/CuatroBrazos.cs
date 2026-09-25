@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace OCP;
+namespace OCP.Aliens;
 public class CuatroBrazos: IAlien
 {
     public virtual string Nombre => "Cuatro brazos";
