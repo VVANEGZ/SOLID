@@ -1,14 +1,16 @@
-public class Cerveza {
+public class Cerveza extends Bebida {
      public Cerveza(String nombreBebida, double precioBase){
         super( nombreBebida, Etiqueta.CON_IEPS, precioBase);
         }
 
-    @Override 
+    @Override
     public boolean requiereINE(){
-        return false;
+        return true;
     }
 
-     @Override 
+     @Override
     public double calcularTotal(){
-        
+        return getPrecioBase() * (1 + IVA) * 1.25;
+    }
+
 }

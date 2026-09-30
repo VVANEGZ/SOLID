@@ -4,41 +4,41 @@ class Personaje(ABC):
     def __init__(self, nombre, vida):
         self.nombre = nombre
         self.vida = vida
-        
+
     def recibir_danio(self, cantidad):
         self.vida -= cantidad
         print(f"Recibe {cantidad} de danio")
         print(f"Vida restante: {self.vida}")
-        
+
     @abstractmethod
     def atacar(self):
         pass
-        
+
 class ICurable(ABC):
     @abstractmethod
     def curar(self, objetivo):
-        pass 
-        
+        pass
+
 class Guerrero(Personaje):
     def atacar(self):
         print(f"{self.nombre} ataca con su espada")
-        
-class Mago(Personaje):
+
+class Mago(Personaje, ICurable):
     def atacar(self):
         print(f"{self.nombre} ataca con su bola de fuego")
-        
+
     def curar(self, objetivo):
         objetivo.vida += 20
         print(f"{self.nombre} cura a {objetivo.nombre} + 20 de vida")
-        
-class Soporte(Personaje):
+
+class Soporte(Personaje, ICurable):
     def atacar(self):
-        print(f"{self.nombre} ataca con baston")      
-        
+        print(f"{self.nombre} ataca con baston")
+
     def curar(self, objetivo):
         objetivo.vida += 20
         print(f"{self.nombre} cura a {objetivo.nombre} + 20 de vida")
-                
+
 guerrero = Guerrero("Guerrero1", 100)
 mago = Mago("Mago1", 60)
 soporte = Soporte("Soporte1", 70)
@@ -48,6 +48,6 @@ mago.atacar()
 soporte.atacar()
 
 
-mago.curar()
+mago.curar(guerrero)
 
 print(f"vida final de {guerrero.nombre}: {guerrero.vida}")

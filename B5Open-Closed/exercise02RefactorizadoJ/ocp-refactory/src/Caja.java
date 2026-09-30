@@ -12,5 +12,9 @@ public class Caja {
             System.out.println("Efectivo insuficiente.");
             return;
         }
+        System.out.println("Subtotal: " + subtotal);
+        System.out.println("Descuento: " + descuento.getDescripcion());
+        System.out.println("Total: " + total);
+        System.out.println("Cambio: " + (efectivo - total));
     }
 }

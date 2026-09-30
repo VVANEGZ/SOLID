@@ -1,18 +1,13 @@
-## Getting Started
+# Métodos de pago — Mateos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Ejemplo de polimorfismo de subtipo con MetodoPago, Tarjeta, PayPal y Contado. Caja usa el mismo contrato para validar y pagar. Los apuntes están en [explication01.md](explication01.md).
 
-## Folder Structure
+Desde esta carpeta:
+```powershell
+javac -encoding UTF-8 -d bin src/*.java
+java -cp bin App
+```
 
-The workspace contains two folders by default, where:
+La tarjeta "123" falla a propósito; PayPal y contado pasan. Se conservaron tus nombres, montos y mensajes.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+[Referencia](https://github.com/omarruiz31/SOLID/tree/main/Polimorfismo/Mateos).

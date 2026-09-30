@@ -25,10 +25,13 @@ class Validadora{
     validarUsuario(user: User){
         if(user.getNombre().length < 1){
             console.log(`Nombre ${user.getNombre()} es demasiado corto`)
+            return false
         } if(user.getEdad()<16){
             console.log("Debes ser mayor de 16 para entrar.")
+            return false
         } if(!user.getEmail().includes('@')){
             console.log(`El email ${user.getEmail()} no es válido`)
+            return false
         }
         return true
     }
@@ -41,7 +44,7 @@ class Facturadora{
         return precio
     }
     generarFactura(user: User): string{
-        const folio: string = `Club Deportivo - ${Date.toString}`
+        const folio: string = `Club Deportivo - ${Date.now()}`
         const factura: string = `${folio} \n Cliente: ${user.getNombre()} | Plan ${user.getPlan()} | Total: ${this.calcularPrecio(user)}`
         return factura
     }
@@ -49,9 +52,10 @@ class Facturadora{
 }
 
 class ServicioCorreo{
-    mandarEmailBienvenida(user: User): void{
+    mandarEmailBienvenida(user: User, factura: string): void{
         console.log(`Email enviado al correo: ${user.getEmail()}`)
         console.log(`Bienvenido ${user.getNombre()} \n`)
+        console.log(factura)
     }
 }
 
@@ -66,14 +70,15 @@ class RepositorioBD{
 class ServicioDeportivo{
     constructor(
         private validador: Validadora,
-     //   private facturadora: Facturadora,
+        private facturadora: Facturadora,
         private servicioCorreo: ServicioCorreo,
         private repositorio: RepositorioBD
     ){}
     registrarSuscripcion(user: User): boolean{
         if(this.validador.validarUsuario(user)){
             this.repositorio.guardarEnBD(user)
-            this.servicioCorreo.mandarEmailBienvenida(user)
+            const factura = this.facturadora.generarFactura(user)
+            this.servicioCorreo.mandarEmailBienvenida(user, factura)
              console.log(`Usuario registrado con éxito en el plan ${user.getPlan()}`)
               return true
         }
@@ -82,6 +87,8 @@ class ServicioDeportivo{
 }
 
 const vogan = new User('Vaughan', 'lobita@gmail.com', 28, "chipocludo")
-const britania = new ServicioDeportivo(new Validadora(), new ServicioCorreo(), new RepositorioBD())
+const britania = new ServicioDeportivo(new Validadora(), new Facturadora(), new ServicioCorreo(), new RepositorioBD())
+
+export {}
 
 britania.registrarSuscripcion(vogan)

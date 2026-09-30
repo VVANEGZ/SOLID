@@ -1,3 +1,4 @@
+#pragma once
 #include "Contenedor.hpp"
 #include <initializer_list>
 #include <ostream>
@@ -34,13 +35,22 @@ class MiVector: public Contenedor<T>{
 
   void quitar(size_t i) override{
     if(i>= tam) throw std::out_of_range("Quitar: fuera de rango");
-    for(int j=i; j < tam; j++) datos[j] = datos[j+1];
+    for(size_t j=i; j + 1 < tam; j++) datos[j] = datos[j+1];
     tam--;
   }
 
   T& operator() (size_t i){ return obtener(i); }
 
   T& operator[] (size_t i){ return obtener(i); }
+
+  friend std::ostream& operator<<(std::ostream& os, const MiVector& vector) {
+    os << "[";
+    for (size_t i = 0; i < vector.tam; ++i) {
+      if (i > 0) os << ", ";
+      os << vector.datos[i];
+    }
+    return os << "]";
+  }
 
   size_t tam;
   size_t cap;
@@ -49,7 +59,7 @@ class MiVector: public Contenedor<T>{
 private:
   void reservar(size_t nuevaCap){
     T* nuevos= new T[nuevaCap];
-    for(int i = 0; i<tam; i++) nuevos[i] = datos[i];
+    for(size_t i = 0; i<tam; i++) nuevos[i] = datos[i];
     delete[] datos;
     datos = nuevos;
     cap = nuevaCap;

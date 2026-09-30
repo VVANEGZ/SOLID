@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zS24016699\\SOLID\\B1ClasesAbstractasInterfaces\\exercise01CSHARP\\ex.csproj": {}
+    "C:\\Users\\gvane\\OneDrive\\Escritorio\\UNIVERSIDAD\\5TO SEMESTRE\\TECNOLOGÍA\\SOLID\\B1ClasesAbstractasInterfaces\\exercise01CSHARP\\ex.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zS24016699\\SOLID\\B1ClasesAbstractasInterfaces\\exercise01CSHARP\\ex.csproj": {
+    "C:\\Users\\gvane\\OneDrive\\Escritorio\\UNIVERSIDAD\\5TO SEMESTRE\\TECNOLOGÍA\\SOLID\\B1ClasesAbstractasInterfaces\\exercise01CSHARP\\ex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zS24016699\\SOLID\\B1ClasesAbstractasInterfaces\\exercise01CSHARP\\ex.csproj",
+        "projectUniqueName": "C:\\Users\\gvane\\OneDrive\\Escritorio\\UNIVERSIDAD\\5TO SEMESTRE\\TECNOLOGÍA\\SOLID\\B1ClasesAbstractasInterfaces\\exercise01CSHARP\\ex.csproj",
         "projectName": "ex",
-        "projectPath": "C:\\Users\\zS24016699\\SOLID\\B1ClasesAbstractasInterfaces\\exercise01CSHARP\\ex.csproj",
-        "packagesPath": "C:\\Users\\zS24016699\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zS24016699\\SOLID\\B1ClasesAbstractasInterfaces\\exercise01CSHARP\\obj\\",
+        "projectPath": "C:\\Users\\gvane\\OneDrive\\Escritorio\\UNIVERSIDAD\\5TO SEMESTRE\\TECNOLOGÍA\\SOLID\\B1ClasesAbstractasInterfaces\\exercise01CSHARP\\ex.csproj",
+        "packagesPath": "C:\\Users\\gvane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gvane\\OneDrive\\Escritorio\\UNIVERSIDAD\\5TO SEMESTRE\\TECNOLOGÍA\\SOLID\\B1ClasesAbstractasInterfaces\\exercise01CSHARP\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zS24016699\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gvane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +30,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -41,11 +44,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -63,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

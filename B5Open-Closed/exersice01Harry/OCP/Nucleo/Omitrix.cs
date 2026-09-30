@@ -7,7 +7,7 @@ public class Omitrix
     public void Transformar(IAlien alien)
     {
         AlienActual = alien;
-        System.Console.WriteLine($"Transformación completada. Ahora eres {AlienActual}");
+        System.Console.WriteLine($"Transformación completada. Ahora eres {AlienActual.Nombre}");
     }
 
     public void Destransformar(IAlien alien)

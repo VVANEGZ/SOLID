@@ -18,15 +18,16 @@ class Cliente{
             return false;
         } if (!this.email.includes('@')){
             console.log(`El correo ${this.email} no es un correo válido`);
+            return false;
         } return true;
     }
 
     guardarEnBD(): void{
         if(this.validarUsuario()){
         console.log(`Insertando ${this.nombre}`);
-        console.log(`INSERT INTO clientes(nombre, email, edad, plan) VALUES ('${this.nombre}', '${this.edad}', '${this.email}','${this.plan}')`)    
+        console.log(`INSERT INTO clientes(nombre, email, edad, plan) VALUES ('${this.nombre}', '${this.email}', '${this.edad}','${this.plan}')`)
         }
-        
+
     }
     calcularPrecio(): number{
         const precios: Record<string, number> = {"basico": 299, "intermedio": 499, "pro": 999};

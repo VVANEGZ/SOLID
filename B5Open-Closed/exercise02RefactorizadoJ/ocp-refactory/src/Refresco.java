@@ -3,14 +3,14 @@ public class Refresco extends Bebida{
         super( nombreBebida, Etiqueta.CON_IVA, precioBase);
         }
 
-    @Override 
+    @Override
     public boolean requiereINE(){
         return false;
     }
 
-     @Override 
+     @Override
     public double calcularTotal(){
-        return getPrecioBase();
+        return getPrecioBase() * (1 + IVA);
     }
 
 }

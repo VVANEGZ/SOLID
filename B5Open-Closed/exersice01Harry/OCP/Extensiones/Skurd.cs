@@ -1,6 +1,6 @@
 using OCP.Aliens;
 namespace OCP.Extensiones;
-public class Skurd
+public class Skurd : IAlien
 {
     private readonly IAlien _alienBase;
     private readonly IAlien _alienDonador;

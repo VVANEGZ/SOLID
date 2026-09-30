@@ -1,18 +1,14 @@
-## Getting Started
+# OCP — ejemplo malo de Justin
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+El programa funciona, pero usa condicionales por bebida y descuento. Agregar variantes exige modificar clases existentes: esa es la infracción de OCP.
 
-## Folder Structure
+Desde esta carpeta:
+```powershell
+javac -encoding UTF-8 -d bin src/*.java
+java -cp bin App
+```
 
-The workspace contains two folders by default, where:
+Tu ejemplo vende agua, refresco, tepache y cerveza a 25 de precio base. Subtotal esperado: 119.25; con descuento navideño: 107.325. double puede mostrar decimales adicionales por su representación binaria.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Apuntes y comparación: [apuntesOCP.md](../apuntesOCP.md).
+[Referencia](https://github.com/omarruiz31/SOLID/tree/main/Open-Closed/Justin/OCP).

@@ -1,5 +1,12 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Bebida[] bebidas = {
+            new Agua("CIEL", 20),
+            new Refresco("COCA", 25),
+            new Cerveza("Coronita", 30)
+        };
+        Caja caja = new Caja();
+        caja.cobrar(bebidas, new DescuentoNavidad(), 100);
+        caja.cobrar(bebidas, new SinDescuento(), 100);
     }
 }
