@@ -1,0 +1,15 @@
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\obj\Debug\net10.0\SingletonExpo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\obj\Debug\net10.0\SingletonExpo.AssemblyInfoInputs.cache
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\obj\Debug\net10.0\SingletonExpo.AssemblyInfo.cs
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\obj\Debug\net10.0\SingletonExpo.csproj.CoreCompileInputs.cache
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\obj\Debug\net10.0\SingletonExpo.sourcelink.json
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\bin\Debug\net10.0\SingletonExpo.exe
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\bin\Debug\net10.0\SingletonExpo.deps.json
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\bin\Debug\net10.0\SingletonExpo.runtimeconfig.json
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\bin\Debug\net10.0\SingletonExpo.dll
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\bin\Debug\net10.0\SingletonExpo.pdb
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\obj\Debug\net10.0\SingletonExpo.dll
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\obj\Debug\net10.0\refint\SingletonExpo.dll
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\obj\Debug\net10.0\SingletonExpo.pdb
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\obj\Debug\net10.0\SingletonExpo.genruntimeconfig.cache
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\DESIGN_PATTERNS\singleton\SingletonExpo\obj\Debug\net10.0\ref\SingletonExpo.dll
