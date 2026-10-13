@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\gvane\\OneDrive\\Escritorio\\UNIVERSIDAD\\5TO SEMESTRE\\TECNOLOGÍA\\SOLID\\DESIGN_PATTERNS\\singleton\\Nueva carpeta\\SingletonBueno\\SingletonBueno.csproj",
+      "projectUniqueName": "C:\\Users\\gvane\\OneDrive\\Escritorio\\UNIVERSIDAD\\5TO SEMESTRE\\TECNOLOGÍA\\SOLID\\DESIGN_PATTERNS\\singleton\\SingletonBueno\\SingletonBueno.csproj",
       "projectName": "SingletonBueno",
-      "projectPath": "c:\\Users\\gvane\\OneDrive\\Escritorio\\UNIVERSIDAD\\5TO SEMESTRE\\TECNOLOGÍA\\SOLID\\DESIGN_PATTERNS\\singleton\\Nueva carpeta\\SingletonBueno\\SingletonBueno.csproj",
+      "projectPath": "C:\\Users\\gvane\\OneDrive\\Escritorio\\UNIVERSIDAD\\5TO SEMESTRE\\TECNOLOGÍA\\SOLID\\DESIGN_PATTERNS\\singleton\\SingletonBueno\\SingletonBueno.csproj",
       "packagesPath": "C:\\Users\\gvane\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\gvane\\OneDrive\\Escritorio\\UNIVERSIDAD\\5TO SEMESTRE\\TECNOLOGÍA\\SOLID\\DESIGN_PATTERNS\\singleton\\Nueva carpeta\\SingletonBueno\\obj\\",
+      "outputPath": "C:\\Users\\gvane\\OneDrive\\Escritorio\\UNIVERSIDAD\\5TO SEMESTRE\\TECNOLOGÍA\\SOLID\\DESIGN_PATTERNS\\singleton\\SingletonBueno\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
