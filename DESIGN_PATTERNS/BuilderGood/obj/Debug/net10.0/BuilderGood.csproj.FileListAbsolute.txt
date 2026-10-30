@@ -1,0 +1,15 @@
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\obj\Debug\net10.0\BuilderGood.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\obj\Debug\net10.0\BuilderGood.AssemblyInfoInputs.cache
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\obj\Debug\net10.0\BuilderGood.AssemblyInfo.cs
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\obj\Debug\net10.0\BuilderGood.csproj.CoreCompileInputs.cache
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\obj\Debug\net10.0\BuilderGood.sourcelink.json
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\bin\Debug\net10.0\BuilderGood.exe
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\bin\Debug\net10.0\BuilderGood.deps.json
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\bin\Debug\net10.0\BuilderGood.runtimeconfig.json
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\bin\Debug\net10.0\BuilderGood.dll
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\bin\Debug\net10.0\BuilderGood.pdb
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\obj\Debug\net10.0\BuilderGood.dll
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\obj\Debug\net10.0\refint\BuilderGood.dll
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\obj\Debug\net10.0\BuilderGood.pdb
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\obj\Debug\net10.0\BuilderGood.genruntimeconfig.cache
+C:\Users\gvane\OneDrive\Escritorio\UNIVERSIDAD\5TO SEMESTRE\TECNOLOGÍA\SOLID\BuilderGood\obj\Debug\net10.0\ref\BuilderGood.dll
